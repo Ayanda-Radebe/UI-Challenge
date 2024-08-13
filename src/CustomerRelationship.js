@@ -1,6 +1,7 @@
 import React from 'react';
 import './customerRelationship.css';
-import crm  from './crm.png'
+// Uncomment this if you want to use the image
+// import crm from './crm.png';
 
 const CustomerRelationship = () => {
   return (
@@ -13,7 +14,8 @@ const CustomerRelationship = () => {
         <button className="cta-button">Open Bridge for free</button>
       </div>
       <div className="image-content">
-      <img src={process.env.PUBLIC_URL + '/crm.png'} alt="CRM Workflow" />
+        {/* Uncomment and use this image if you have it in your project */}
+        {/* <img src={crm} alt="CRM Workflow" /> */}
       </div>
     </section>
   );
