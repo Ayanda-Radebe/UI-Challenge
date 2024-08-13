@@ -1,0 +1,45 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #f8f7f7;
+  color: #fff;
+}
+
+.logo img {
+  height: 50px; /* Adjust based on your logo */
+}
+
+.nav {
+  display: flex;
+}
+
+.nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-item {
+  margin-right: 15px;
+  
+}
+
+.nav-link {
+  color: #000000;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: gray;
+}
+
+.right-nav button {
+  margin-left: 10px; 
+}
+
+body {
+  background-color: #f8f7f7;
+}

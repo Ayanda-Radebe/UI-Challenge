@@ -1,0 +1,59 @@
+.customer-relationship {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    background-color: #f8f7f7;
+    color: #000;
+  }
+  
+  .text-content {
+    max-width: 50%;
+  }
+  
+  .text-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #1d1d1f;
+  }
+  
+  .text-content p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #4d4d4f;
+  }
+  
+  .cta-button {
+    background-color: #000;
+    color: #fff;
+    padding: 0.75rem 2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .cta-button:hover {
+    background-color: #333;
+  }
+  
+  .image-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .customer-relationship {
+      flex-direction: column;
+    }
+  
+    .text-content {
+      max-width: 100%;
+      text-align: center;
+    }
+  
+    .image-content {
+      margin-top: 2rem;
+    }
+  }
