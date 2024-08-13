@@ -3,14 +3,14 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import crm from '/.crm.png';
-import './customerRelationship.css';
-
+import CustomerRelationship from './CustomerRelationship'; // Import the CustomerRelationship component
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    {/* If you want to render both App and CustomerRelationship, wrap them in a fragment */}
     <App />
+    <CustomerRelationship /> {/* Render CustomerRelationship here */}
   </React.StrictMode>
 );
 
