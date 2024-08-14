@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import CustomerRelationship from './CustomerRelationship'; // Import the CustomerRelationship component
+import  './footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

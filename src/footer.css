@@ -1,0 +1,29 @@
+.footer-content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .footer-text {
+    font-size: 14px;
+    color: #6c757d;
+    margin-right: 20px;
+    text-align: left;
+  }
+  
+  .logo-container {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .logo {
+    height: 100px;
+    filter: grayscale(100%);
+  }
+
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }

@@ -6,18 +6,22 @@ import './customerRelationship.css';
 const CustomerRelationship = () => {
   return (
     <section className="customer-relationship">
-      <div className="text-content">
-        <h1>Build customer relationship in a flexible way</h1>
-        <p>
-          Powerful, flexible and data-driven, Bridge makes it easy to build the exact CRM your business needs.
-        </p>
-        <button className="cta-button">Open Bridge for free</button>
+  <div className="container">
+    <div className="text-card">
+      <div className="text-container">
+      <button className="highlight-button"><span>New</span> How Monobank uses Bridge to power their growth </button>
+      <h1>Build customer relationship in a flexible way</h1>
+        <p>Powerful, flexible and data-driven, Bridge makes it easy to build the exact CRM your business needs.</p>
       </div>
-      <div className="image-content">
-        {/* Uncomment and use this image if you have it in your project */}
-        {/* <img src={crm} alt="CRM Workflow" /> */}
+      <button className="cta-button">Open Bridge for free</button>
+    </div>
+    <div className="image-container">
+      <div className="image-card">
+        <img src="crm.png" alt="Company Logo" />
       </div>
-    </section>
+    </div>
+  </div>
+</section>
   );
 };
 
