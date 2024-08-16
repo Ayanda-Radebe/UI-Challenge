@@ -15,7 +15,7 @@ const Header = () => {
     <>
       <header className="header">
         <div className="logo">
-          <img src="bridgelogo.jpeg" alt="Company Logo" />
+          <img src="newlogo.png" alt="Company Logo" />
         </div>
         <nav className="nav">
           <ul className="nav-list">
