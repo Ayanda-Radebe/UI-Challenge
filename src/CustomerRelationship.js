@@ -10,8 +10,8 @@ const CustomerRelationship = () => {
     <div className="text-card">
       <div className="text-container">
       <button className="highlight-button"><span>New</span> How Monobank uses Bridge to power their growth </button>
-      <h1>Build customer relationship in a flexible way</h1>
-        <p>Powerful, flexible and data-driven, Bridge makes it easy to build the exact CRM your business needs.</p>
+      <h1>Build customer <br></br>relationship in<br></br> a flexible way</h1>
+        <p>Powerful, flexible and data-driven, Bridge makes <br></br> it easy to build the exact CRM your business needs.</p>
       </div>
       <button className="cta-button">Open Bridge for free</button>
     </div>
